@@ -16,7 +16,7 @@ All queries used to generate the insights below can be found in the accompanying
 * **Database Concepts:** Handled using an `INNER JOIN` across three tables and filtered for active status.
 
 #### Output Result:
-![Active Loans Output](images/active_loans.png)
+![Active Loans Output](active_loans.png)
 
 ---
 
@@ -25,7 +25,7 @@ All queries used to generate the insights below can be found in the accompanying
 * **Database Concepts:** Utilized `COUNT()` aggregation and grouped records to sort titles in descending order.
 
 #### Output Result:
-![Popularity Output](images/popularity.png)
+![Popularity Output](popularity.png)
 
 ---
 
@@ -34,7 +34,7 @@ All queries used to generate the insights below can be found in the accompanying
 * **Database Concepts:** Applied the `SUM()` function to consolidate physical stock levels.
 
 #### Output Result:
-![Genre Output](images/genre_total.png)
+![Genre Output](genre_total.png)
 
 ---
 
@@ -43,7 +43,7 @@ All queries used to generate the insights below can be found in the accompanying
 * **Database Concepts:** Solved using a `LEFT JOIN` and tracking unmatched records where the transaction layer contains missing (`NULL`) values.
 
 #### Output Result:
-![Inactive Members Output](images/inactive_members.png)
+![Inactive Members Output](inactive_members.png)
 
 ## 🛠️ How to Run
 1. Run the scripts inside `schema.sql` to build the database and populate it with sample data.
